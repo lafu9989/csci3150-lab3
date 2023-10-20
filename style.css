@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+abbr {
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+mark {
+    background: lime;
+}
+.skip-link {
+    background: black;
+    color: #fff;
+    font-weight: 700;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-200%);
+    transition: transform 0.3s; 
+}
+
+.skip-link:focus {
+    transform: translateY(0%);
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+table {
+    margin-bottom: 30px;
+}
+
+td {
+    border: 2px solid black;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    height: 50px;
+}
+
+input:focus {
+    background: black;
+    color: white;
+    border: 4px solid yellow;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border: 1px dotted red;
+}
+
+h1, h2, h3 {
+    font-family: 'Young Serif', serif;
+}
+  
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FEC3A2;
+}
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.wrapper {
+    max-width: 100ch; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+  
